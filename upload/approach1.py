@@ -46,7 +46,7 @@ def approach(x,video_path):
 
             # Exit if 'q' is pressed or if the video ends
             key = cv2.waitKey(1)
-            if key == ord('q') or not success or len(fps_values) == 300:
+            if key == ord('q') or not success or len(fps_values) == 100:
                 break
 
     # Release the video capture
