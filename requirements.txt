@@ -1,0 +1,3 @@
+opencv-python==4.7.0.72
+ultralytics==8.0.145
+matplotlib==3.2.2
